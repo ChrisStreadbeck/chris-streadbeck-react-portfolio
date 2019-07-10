@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 
-import PortfolioContainer from './portfolio-container';
+import PortfolioContainer from './portfolio/portfolio-container';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div className='app'>
@@ -13,3 +13,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App;
