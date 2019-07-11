@@ -25,5 +25,3 @@ class NavigationComponent extends Component {
 
 
 
-
-export default NavigationComponent

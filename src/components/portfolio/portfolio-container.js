@@ -25,8 +25,7 @@ class PortfolioContainer extends Component {
       return <PortfolioItem title={item.title} url={"google.com"} slug={item.slug}/>
     });
   }
-  
-  
+
   handleFilter(filter) {
     this.setState({
       data: this.state.data.filter(item => {
@@ -49,7 +48,6 @@ class PortfolioContainer extends Component {
 
 
         {this.portfolioItems()}
-
       </div>
     )
   }

@@ -13,7 +13,6 @@ import Blog from "./pages/blog"
 import PortfolioDetail from "./portfolio/portfolio-detail"
 import NoMatch from "./pages/no-match"
 
-class App extends Component {
   render() {
     return (
       <div className='app'>
@@ -32,7 +31,6 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-        
       </div>
     );
   }
