@@ -39,15 +39,7 @@ class PortfolioContainer extends Component {
 
   portfolioItems() {
     return this.state.data.map(item => {
-      console.log("portfolio item", item);
-      return (
-        <PortfolioItem
-          key={item.id}
-          title={item.name}
-          url={item.url}
-          slug={item.id}
-        />
-      );
+      return <PortfolioItem key={item.id} item={item} />;
     });
   }
 
@@ -73,8 +65,7 @@ class PortfolioContainer extends Component {
         <button onClick={() => this.handleFilter("Enterprise")}>
           Enterprise
         </button>
-
-        {this.portfolioItems()}
+        <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>
       </div>
     );
   }
