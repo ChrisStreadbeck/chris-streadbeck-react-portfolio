@@ -32,6 +32,9 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
     "axios": "^0.19.0",
@@ -60,6 +63,7 @@
     "postcss-loader": "^2.1.6",
     "react": "16.8.0",
     "react-dom": "16.8.0",
+    "react-dropzone-component": "^3.2.0",
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
