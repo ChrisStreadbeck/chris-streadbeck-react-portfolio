@@ -66,14 +66,14 @@ class PortfolioContainer extends Component {
           <button className="btn" onClick={() => this.handleFilter("React")}>
             React
           </button>
-          <button className="btn" onClick={() => this.handleFilter("Python")}>
-            Python
-          </button>
           <button
             className="btn"
-            onClick={() => this.handleFilter("Wordpress")}
+            onClick={() => this.handleFilter("Applications")}
           >
-            Wordpress
+            Applications
+          </button>
+          <button className="btn" onClick={() => this.handleFilter("Websites")}>
+            Websites
           </button>
           <button
             className="btn"

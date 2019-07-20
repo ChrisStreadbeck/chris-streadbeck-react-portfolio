@@ -35,10 +35,12 @@ class PortfolioItem extends Component {
               backgroundImage: "url(" + thumb_image_url + ")"
             }}
           />
+
           <div className="img-text-wrapper">
             <div className="logo-wrapper">
               <img src={logo_url} />
             </div>
+
             <div className="subtitle">{description}</div>
           </div>
         </div>

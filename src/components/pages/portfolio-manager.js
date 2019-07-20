@@ -13,9 +13,9 @@ class PortfolioManager extends Component {
       portfolioToEdit: {}
     };
 
-    this.handleFormSubmissionError = this.handleFormSubmissionError.bind(this);
     this.handleNewFormSubmission = this.handleNewFormSubmission.bind(this);
     this.handleEditFormSubmission = this.handleEditFormSubmission.bind(this);
+    this.handleFormSubmissionError = this.handleFormSubmissionError.bind(this);
     this.handleDeleteClick = this.handleDeleteClick.bind(this);
     this.handleEditClick = this.handleEditClick.bind(this);
     this.clearPortfolioToEdit = this.clearPortfolioToEdit.bind(this);
@@ -64,7 +64,7 @@ class PortfolioManager extends Component {
   }
 
   handleFormSubmissionError(error) {
-    console.log("handleFormSubmissionError", error);
+    console.log("handleFormSubmissionError error", error);
   }
 
   getPortfolioItems() {
@@ -81,7 +81,7 @@ class PortfolioManager extends Component {
         });
       })
       .catch(error => {
-        console.log("error in getPortfolioItems, error", error);
+        console.log("error in getPortfolioItems", error);
       });
   }
 
@@ -101,6 +101,7 @@ class PortfolioManager extends Component {
             portfolioToEdit={this.state.portfolioToEdit}
           />
         </div>
+
         <div className="right-column">
           <PortfolioSidebarList
             handleDeleteClick={this.handleDeleteClick}
