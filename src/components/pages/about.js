@@ -39,8 +39,12 @@ export default function() {
             </li>
             <li>Spanish Speaking</li>
           </ul>
-          <a className="github" href="url">
-            https://github.com/ChrisStreadbeck
+          <a
+            className="github"
+            href="https://github.com/ChrisStreadbeck"
+            target="_blank"
+          >
+            My GitHub
           </a>
         </div>
       </div>

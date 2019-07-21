@@ -12,7 +12,7 @@ class PortfolioForm extends Component {
     this.state = {
       name: "",
       description: "",
-      category: "eCommerce",
+      category: "React",
       position: "",
       url: "",
       thumb_image: "",
