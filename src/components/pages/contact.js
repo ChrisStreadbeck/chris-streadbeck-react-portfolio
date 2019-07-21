@@ -16,12 +16,12 @@ export default function() {
 
       <div className="right-column">
         <div className="contact-bullet-points">
-          <div className="bullet-point-group">
+          {/* <div className="bullet-point-group">
             <div className="icon">
               <FontAwesomeIcon icon="phone" />
             </div>
             <div className="text">555-555-5555</div>
-          </div>
+          </div> */}
 
           <div className="bullet-point-group">
             <div className="icon">
