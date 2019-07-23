@@ -225,7 +225,7 @@ class PortfolioForm extends Component {
             className="select-element"
           >
             <option value="React">React</option>
-            <option value="Python">Applications</option>
+            <option value="Python">Python</option>
             <option value="Websites">Websites</option>
           </select>
         </div>
