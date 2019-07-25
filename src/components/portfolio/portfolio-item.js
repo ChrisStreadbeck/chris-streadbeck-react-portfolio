@@ -19,7 +19,13 @@ class PortfolioItem extends Component {
   }
 
   render() {
-    const { id, description, thumb_image_url, logo_url } = this.props.item;
+    const {
+      id,
+      description,
+      position,
+      thumb_image_url,
+      logo_url
+    } = this.props.item;
     return (
       <Link to={`/portfolio/${id}`}>
         <div
