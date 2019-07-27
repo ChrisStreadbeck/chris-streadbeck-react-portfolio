@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 
 import PortfolioItem from "./portfolio-item";
+import { doSort } from "../../helpers/sort.js";
 
 class PortfolioContainer extends Component {
   constructor() {
@@ -35,8 +36,15 @@ class PortfolioContainer extends Component {
             })
           });
         } else {
+          let data = response.data.portfolio_items;
+          data = doSort(data, {
+            sortField: "position",
+            isAsc: true,
+            isNumber: true
+          });
+
           this.setState({
-            data: response.data.portfolio_items
+            data
           });
         }
       })
