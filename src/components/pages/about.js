@@ -46,6 +46,13 @@ export default function() {
           >
             My GitHub
           </a>
+          <a
+            className="github"
+            href="https://drive.google.com/file/d/1qE-YRyMXHUdM_zWvX2yzcpx89oLzq2kY/view?ths=true"
+            target="_blank"
+          >
+            My Resume
+          </a>
         </div>
       </div>
     </div>
